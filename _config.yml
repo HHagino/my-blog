@@ -1,14 +1,17 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: My sample book
-author: The Jupyter Book Community
-logo: logo.png
+title: My blog
+author: Hiromasa Hagino
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
 execute:
-  execute_notebooks: force
+  execute_notebooks: “off"
+
+root: comntent/hello-world.md
+
+only_build_toc_files: true
 
 # Define the name of the latex output file for PDF builds
 latex:
