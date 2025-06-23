@@ -1,9 +1,2 @@
-# Table of contents
-# Learn more at https://jupyterbook.org/customize/toc.html
-
-format: jb-book
+pformat: jb-book
 root: hello-world.md
-chapters:
-- file: markdown
-- file: notebooks
-- file: markdown-notebooks
