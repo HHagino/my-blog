@@ -1,3 +1,5 @@
 jupyter-book
+sphinx
+sphinx_external_toc
 matplotlib
 numpy
